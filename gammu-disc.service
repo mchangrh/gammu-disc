@@ -1,0 +1,9 @@
+[Unit]
+Description=gammu-disc
+After=gammu-smsd.service
+
+[Service]
+ExecStart=/opt/gammu-disc/gammu-disc
+
+[Install]
+WantedBy=multi-user.target

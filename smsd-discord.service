@@ -1,9 +1,0 @@
-[Unit]
-Description=smsd-discord
-After=gammu-smsd
-
-[Service]
-ExecStart=/opt/smsd-discord/smsd-discord
-
-[Install]
-WantedBy=multi-user.target
